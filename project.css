@@ -1,0 +1,238 @@
+html{
+    scroll-behavior: smooth;
+}
+#logo {
+    /* height: 25px;
+    width: 25px; */
+    /* border: 2px solid black; */
+    display: inline-block;
+}
+#logo img{
+    margin: 10px;
+    height: 44px;
+    width: 95px;
+}
+.navbar::before{
+    content: "";
+    /* background-color: bisque;  */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.navbar li{
+    /* display: flex; */
+    list-style: none;
+
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    margin: 2px;
+    padding: 3px 22px;
+    border-radius: 20px;
+    color: black;
+    font-size: 1.3rem;
+    /* text-shadow: 0px 0px white; */
+}
+.navbar ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    margin: 2px;
+}
+.navbar{
+    /* top: 0;
+    left: 0; */
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding: 3px 200px;
+}
+#home::before{
+    content: "";
+    background: url(../img/bg5.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    /* font-family: 'Baloo Bhai', cursive; */
+    font-family: 'bree serif','serif';
+
+}
+.h-secondary{
+    font-size: 1.5rem;
+    font-family: 'bree serif','serif';
+    /* font-family: 'Baloo Bhai', cursive; */
+    padding: 12px;
+    margin: 0px;
+}
+.center{
+    text-align: center;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    margin: 0px 0px;
+    /* font-family: 'bree serif','serif'; */
+    font-family: 'Baloo Bhai', cursive;
+}
+#home p{
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Baloo Bhai', cursive;
+    /* text-shadow: 1px 1px black; */
+}
+.btn{
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid rgb(238, 60, 60);
+    background-color: rgb(233, 60, 60);
+    border-radius: 20px;
+    cursor:pointer;
+    font-size: 1.1rem;
+    font-family: 'Baloo Bhai', cursive;
+}
+.btn:hover{
+    background-color: red;
+    border: 2px solid red;
+
+}
+ 
+#services{
+    justify-content: center;
+    margin: 10px;
+    display: flex;
+}
+#services .box{
+/* border: 2px solid brown; */
+margin: 0px 15px;
+/* border-radius: 15px; */
+
+} 
+#services .box img{
+    display: block;
+    margin:auto ;
+    height: 197px;
+    width: 301px;
+    border-radius: 10px;
+}
+/* #services
+#services */
+.services-container{
+    margin: 30px 9px;
+}
+.content{
+    font-family: 'bree serif','serif';
+    text-align: center;
+    margin: -6px 10px;
+}
+.menu-items{
+    display: flex;
+    justify-content: center;
+    margin: -20px 10px;
+}
+.menu{
+    margin: 5px 160px;
+}
+div ul .list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+div ul .list img{
+    height: 100px;
+    width: 100x;
+    margin: 0px 50px;
+    border-radius: 50px;
+}
+#menu-section::before{
+    content: "";
+    position: absolute;
+    background: url('../img/new1.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 117%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#menu-section h1{
+    margin-bottom: 5px;
+}
+#menu-section hr{
+    margin-bottom:25px ;
+}
+#reserve{
+    position: relative;
+}
+.form{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* margin: 200px 80px; */
+    /* border: 2px solid black; */
+    background-color: white;
+    /* border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px; */
+    
+    
+}
+.form input{
+    margin: 5px;
+    border-radius: 5px;
+    padding: 8px;
+    width: 350px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+#reserve::before{
+    content: "";
+    position: absolute;
+    background: url('../img/book5.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* opacity: 0.8; */
+    /* margin: 75px 0px; */
+}
+.btn1{
+    
+    width: 250px;
+    margin: 10px 0px;
+}
+#reserve .reserve .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 750px;
+    margin: 65px 90px;
+}
+form {
+    /* margin: 0px 0px; */
+}

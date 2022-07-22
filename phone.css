@@ -1,0 +1,29 @@
+#home::before {
+    
+    height: 78%;
+    width: 104%;
+   
+}
+#menu-section::before{
+    
+    width: 100%;
+    height: 120%;
+}
+.navbar ul li{
+    flex-direction: column;
+}
+#services{
+    display: flex;
+    flex-direction: column;
+}
+#services .box p{
+    margin: 0px;
+    height: 50px;
+    /* height: 150%; */
+}
+#menu .menu{
+    width: 10px;
+
+}
+
+ 

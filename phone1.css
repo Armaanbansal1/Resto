@@ -1,0 +1,43 @@
+.h-primary{
+    font-size: 1.8rem;
+    /* padding: 12px; */
+    /* font-family: 'Baloo Bhai', cursive; */
+    /* font-family: 'bree serif','serif'; */
+
+}
+.h-secondary{
+    font-size: 0.8rem;
+    /* font-family: 'bree serif','serif'; */
+    /* font-family: 'Baloo Bhai', cursive; */
+    /* padding: 12px;
+    margin: 0px; */
+}
+#menu .list{
+    display: flex;
+    flex-direction: column;
+    
+}
+#menu .menu-items div{
+    width: 170px;
+
+}    
+#menu .menu-items div h2{
+    display: flex;
+    /* flex-direction: column; */
+}
+#menu .list li{
+    font-size: 0.8rem;
+
+}
+#menu .list img{
+    height: 50px;
+    width: 50px;
+
+
+}
+
+#menu-section::before{
+    
+    width: 100%;
+    height: 170%;
+}
